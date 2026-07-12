@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.DoubleTapScreenOff" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:statusBarColor">@color/background_gradient_start</item>
+        <item name="android:windowBackground">@color/background_gradient_start</item>
+        <item name="android:navigationBarColor">@color/background_gradient_end</item>
+    </style>
+</resources>
