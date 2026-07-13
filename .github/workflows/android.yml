@@ -22,13 +22,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Setup Gradle Build Environment
-      uses: gradle/gradle-build-action@v2
-      with:
-        gradle-version: 8.1.1
+    - name: Grant Execute Permission for Gradlew
+      run: chmod +x gradlew
 
     - name: Compile and Assemble APK
-      run: gradle assembleDebug
+      run: ./gradlew assembleDebug
 
     - name: Upload Debug APK Artifact
       uses: actions/upload-artifact@v3
