@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Double Tap Screen Off</string>
+    <string name="accessibility_service_description">This service is required to lock your device immediately when you double tap on your home screen or use the floating control button, without pressing the physical power key.</string>
+    <string name="wallpaper_description">Double Tap Screen Off Live Wallpaper detects touch gestures (such as double tapping) on blank areas of your home screen to lock the device seamlessly.</string>
+    <string name="device_admin_description">Used as a legacy fallback mechanism to perform instant device screen locking.</string>
+</resources>
