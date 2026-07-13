@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Double Tap Screen Off</string>
-    <string name="accessibility_service_description">Enables the screen locking capability on a double tap event instantly, using the Android system GLOBAL_ACTION_LOCK_SCREEN API. Safe and low-power consumption.</string>
-    <string name="device_admin_label">Double Tap Screen Off Fallback Admin</string>
-    <string name="device_admin_description">Allows the application to immediately lock the screen via DevicePolicyManager when accessibility service is not currently active.</string>
-    <string name="wallpaper_description">Enables double tap detection anywhere on your Home Screen background to instantly lock the screen with low battery consumption.</string>
-    
-    <string name="service_active_status">ACTIVE</string>
-    <string name="service_inactive_status">INACTIVE</string>
-    <string name="not_configured">NOT CONFIGURED</string>
-    <string name="configured">CONFIGURED</string>
-    
-    <!-- Toast & Dialog Messages -->
-    <string name="device_locked">Screen Locked!</string>
-    <string name="permission_required">Permission required</string>
-    <string name="accessibility_toast">Please enable Accessibility Service for Double Tap Screen Off</string>
-    <string name="admin_toast">Please enable Device Administrator for Fallback Screen Locking</string>
+    <string name="accessibility_service_description">This service is required to lock your device immediately when you double tap on your home screen or use the floating control button, without pressing the physical power key.</string>
+    <string name="wallpaper_description">Double Tap Screen Off Live Wallpaper detects touch gestures (such as double tapping) on blank areas of your home screen to lock the device seamlessly.</string>
+    <string name="device_admin_description">Used as a legacy fallback mechanism to perform instant device screen locking.</string>
 </resources>
